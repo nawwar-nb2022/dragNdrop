@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom , lightgray, gray);
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+}
+.container{
+    background-color: rgb(77, 44, 44);
+    padding: 10px;
+}
+.dragable{
+    padding:20px;
+    background-color:white;
+    border-radius: 5px;
+    
+}
+.dragging{
+    opacity: .8;
+}
